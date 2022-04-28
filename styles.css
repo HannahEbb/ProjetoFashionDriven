@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+header {
+    background-color: #404EED;
+    width: 1366px;
+    height: 89px;
+    padding-top: 15px;
+    padding-left: 82px;
+}
+
+main {
+    width: 1366px;
+    height: 785px;
+    font-family: "Roboto", sans-serif;
+
+} 
+
+.select-tshirt {
+    display: flex;
+}
+
+.selection {
+    background-color: #FFFFFF;
+    width: 695.5px;
+    height: 785px;
+    padding-top: 38px;
+    padding-left: 125px;
+    padding-right: 188px;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 31px;
+    margin-left: 20px;
+}
+
+.options > div {
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.options  .model {
+    background: #F2F2F2;
+    background-size: cover;
+    border: 0.5px solid #C4C4C4;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    border-radius: 50px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+.options  .collar {
+    background: #F2F2F2;
+    background-size: cover;
+    border: 0.5px solid #C4C4C4;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-left: 8px;
+}
+
+.options  .fabric {
+    background: #F2F2F2;
+    background-size: cover;
+    border: 0.5px solid #C4C4C4;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    border-radius: 50px;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+
+h2 {
+    margin-top: 9px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+}
+
+h3 {
+    margin-top: 9px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    padding-right: 32px;
+}
+
+.reference {
+    display: block;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.reference input {
+    background-color: #F2F2F2;
+    width: 397px;
+    height: 40px;
+    margin-top: 9px;
+    border: none;
+    border-radius: 10px;
+}
+
+.reference button {
+    background-color: #C4C4C4;
+    width: 397px;
+    height: 40px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: white;
+}
+
+
+.display-image {
+    width: 679.5px;
+    height: 785px;
+    background-color: #404EED;
+}
+
+
+.previous-tshirts {
+    background-color: #F2F2F2;
+    height: 342px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
