@@ -87,6 +87,10 @@ main {
     padding-left: 18px;
 }
 
+.options .selected {
+    border: 3px solid #404EED;
+}
+
 
 h2 {
     margin-top: 9px;
@@ -129,6 +133,10 @@ h3 {
     font-size: 20px;
     font-weight: 300px;
     color: white;
+}
+
+.active button {
+    background-color: #404EED;
 }
 
 
