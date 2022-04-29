@@ -49,13 +49,12 @@
         <div class="reference">
             <div><h4>Imagem de referência</h4></div>
             <div class="link"><input type="text" placeholder="   Insira o link"></div>
-            <div class="confirm"><button>Confirmar pedido</button></div>
+            <div class="confirm" onclick="confirmOrder()"><button>Confirmar pedido</button></div>
         </div>
     </div>
 
 
     <div class="display-image">
-        <!-- js vai jogar a imagem de referência aqui -->
         <img src="/images/ilustração.png" alt="">
     </div>
 
@@ -63,12 +62,12 @@
 
 
 <div class="previous-tshirts">
-    <!-- js vai inserir array de imagens aqui >> layout como stories do projeto 2-->
+    <p>Últimos pedidos</p>
 
-            <div class="previous"><img src=""></div>
-            <div class="previous"><img src=""></div>
-            <div class="previous"><img src=""></div>
+    <div class="list">
+        <!-- js vai inserir array de imagens aqui >> layout como stories do projeto 2-->
 
+    </div>          
            
         </div>
 
@@ -81,7 +80,7 @@
 
 
 
-
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

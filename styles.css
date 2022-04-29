@@ -5,6 +5,10 @@
     box-sizing: border-box;
   }
 
+strong {
+    font-weight: 700;
+}
+
 
 header {
     background-color: #404EED;
@@ -131,7 +135,7 @@ h3 {
     border: none;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
     color: white;
 }
 
@@ -150,7 +154,48 @@ h3 {
 .previous-tshirts {
     background-color: #F2F2F2;
     height: 342px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
 }
+
+.previous-tshirts p {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 31px;
+    padding-left: 125px;
+    margin-bottom: 15px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+    padding-left: 125px;
+}
+
+.list > div {
+    background-color: #FFFFFF;
+    width: 201.69px;
+    height: 236.47px;
+    margin-right: 17px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.list > div h4 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.list img {
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 180px;
+    margin-left: 10.85px;
+    margin-right: 10.85px;
+    margin-top: 16.42px;
+}
+
