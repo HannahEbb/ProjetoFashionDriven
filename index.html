@@ -22,27 +22,27 @@
         <div class="pick-model">
             <h2>Escolha o modelo</h2>
             <div class="options">
-                <div> <div class="icon model" onclick="selectModel(this)"><img src="/images/tshirt.png"></div> <div><h3>T-shirt</h3></div> </div>
-                <div><div class="icon model" onclick="selectModel(this)"><img src="/images/Camiseta.png"></div><div><h3>Camiseta</h3></div></div>
-                <div><div class="icon model" onclick="selectModel(this)"><img src="/images/Mangalonga.png"></div><div><h3>Manga longa</h3></div></div>
+                <div><div class="icon model" id="t-shirt" onclick="selectModel(this)"><img src="/images/tshirt.png"></div><div><h3>T-shirt</h3></div></div>
+                <div><div class="icon model" id="top-tank" onclick="selectModel(this)"><img src="/images/Camiseta.png"></div><div><h3>Camiseta</h3></div></div>
+                <div><div class="icon model" id="long" onclick="selectModel(this)"><img src="/images/Mangalonga.png"></div><div><h3>Manga longa</h3></div></div>
             </div>
         </div>
 
         <div class="pick-collar">
             <h2>Escolha a gola</h2>
             <div class="options">
-                <div><div class="icon collar" onclick="selectCollar(this)"><img src="/images/GolaV.png"></div><div><h3>Gola V</h3></div></div>
-                <div><div class="icon collar" onclick="selectCollar(this)"><img src="/images/GolaRedonda.png"></div><div><h3>Gola redonda</h3></div></div>
-                <div><div class="icon collar" onclick="selectCollar(this)"><img src="/images/GolaPolo.png"></div><div><h3>Gola polo</h3></div></div>
+                <div><div class="icon collar" id="v-neck" onclick="selectCollar(this)"><img src="/images/GolaV.png"></div><div><h3>Gola V</h3></div></div>
+                <div><div class="icon collar" id="round" onclick="selectCollar(this)"><img src="/images/GolaRedonda.png"></div><div><h3>Gola redonda</h3></div></div>
+                <div><div class="icon collar" id="polo" onclick="selectCollar(this)"><img src="/images/GolaPolo.png"></div><div><h3>Gola polo</h3></div></div>
             </div>
         </div>
 
         <div class="pick-fabric">
             <h2>Escolha o tecido</h2>
             <div class="options">
-                <div><div class="icon fabric" onclick="selectFabric(this)"><img src="/images/Seda.png"></div><div><h3>Seda</h3></div></div>
-                <div><div class="icon fabric" onclick="selectFabric(this)"><img src="/images/Algodão.png"></div><div><h3>Algodão</h3></div></div>
-                <div><div class="icon fabric" onclick="selectFabric(this)"><img src="/images/Poliester.png"></div><div><h3>Poliéster</h3></div></div>
+                <div><div class="icon fabric" id="silk" onclick="selectFabric(this)"><img src="/images/Seda.png"></div><div><h3>Seda</h3></div></div>
+                <div><div class="icon fabric" id="cotton" onclick="selectFabric(this)"><img src="/images/Algodão.png"></div><div><h3>Algodão</h3></div></div>
+                <div><div class="icon fabric" id="polyester" onclick="selectFabric(this)"><img src="/images/Poliester.png"></div><div><h3>Poliéster</h3></div></div>
             </div> 
         </div>
 
@@ -65,20 +65,12 @@
     <p>Últimos pedidos</p>
 
     <div class="list">
-        <!-- js vai inserir array de imagens aqui >> layout como stories do projeto 2-->
 
     </div>          
            
-        </div>
+</div>
 
     </main>
-
-
-        
-
-
-
-
 
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
