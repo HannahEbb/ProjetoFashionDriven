@@ -138,10 +138,27 @@ function purchaseShirt(element) {
             modelSelected = lastOrders[i].model;
             collarSelected = lastOrders[i].neck;
             fabricSelected = lastOrders[i].material;
-            confirm("Deseja mesmo prosseguir para a compra deste modelo, " + clientName + "? " + "Modelo: " + modelSelected + "; Gola: " + collarSelected + "; Tecido: " + fabricSelected);            
+            referenceImage = lastOrders[i].image;
+            orderOwner = lastOrders[i].owner;
+            confirm("Deseja mesmo prosseguir para a compra deste modelo, " + clientName + "? " + "Modelo: " + modelSelected + "; Gola: " + collarSelected + "; Tecido: " + fabricSelected); 
+            
+            const newOrder = {
+                model: modelSelected,
+                neck: collarSelected,
+                material: fabricSelected,
+                owner: orderOwner,
+                image: referenceImage,
+                author: orderOwner
+                };
+            
+            const requisition = axios.post('https://mock-api.driven.com.br/api/v4/shirts-api/shirts', newOrder);
+            requisition.then(getOrders);
+            requisition.catch(problemAlert);           
 
     }
 }
 
 }
+
+ 
 
